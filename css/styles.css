@@ -14,12 +14,13 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  color: #2e2f42;
+  font-weight: 700;
+  color: #4d5ae5;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.logo .logo-web {
-  color: #4d5ae5;
+.logo-web-nav {
+  color: #2e2f42;
 }
 .navigation {
   font-weight: 500;
@@ -35,6 +36,9 @@ ul {
 .navigation .navigation-studio:active {
   line-height: 24px;
   color: #404bbf;
+}
+.header-adress {
+  font-style: normal;
 }
 .contacts {
   font-size: 16px;
