@@ -1,11 +1,110 @@
 body {
   background-color: #fff;
-  font-family: "Roboto", "Raleway" sans-serif;
-  color: #434455;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
 }
 a {
   text-decoration: none;
+  color: #2e2f42;
 }
 ul {
   list-style-type: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #2e2f42;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+}
+.logo .logo-web {
+  color: #4d5ae5;
+}
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.navigation .navigation-link {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navigation .navigation-link:hover,
+.navigation .navigation-link:focus {
+  line-height: 24px;
+  color: #404bbf;
+}
+.navigation .navigation-studio:active {
+  line-height: 24px;
+  color: #404bbf;
+}
+.contacts {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+  line-height: 1.5;
+}
+.contacts li a:hover,
+.contacts li a:focus {
+  color: #404bbf;
+}
+.section-main {
+  background-color: #2e2f42;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  text-align: center;
+  color: #fff;
+}
+.main-button {
+  background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+.main-button:hover,
+.main-button:focus {
+  background: #404bbf;
+}
+.title-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.title-list-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.section-team {
+  background-color: #f4f4fd;
+}
+.footer-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+footer {
+  background-color: #2e2f42;
+}
+footer .logo {
+  color: #f4f4fd;
+}
+.section-team li {
+  text-align: center;
 }
