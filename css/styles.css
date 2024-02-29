@@ -40,8 +40,7 @@ ul {
 .header-adress {
   font-style: normal;
 }
-.contacts-email,
-.contacts-tel {
+.contacts-list {
   color: #434455;
 }
 .contacts {
