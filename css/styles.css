@@ -27,9 +27,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.navigation .navigation-link {
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
 .navigation .navigation-link:hover,
 .navigation .navigation-link:focus {
   line-height: 24px;
