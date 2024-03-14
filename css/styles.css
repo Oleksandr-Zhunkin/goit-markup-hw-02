@@ -30,11 +30,9 @@ ul {
 }
 .navigation .navigation-link:hover,
 .navigation .navigation-link:focus {
-  line-height: 24px;
   color: #404bbf;
 }
 .navigation .navigation-studio:active {
-  line-height: 24px;
   color: #404bbf;
 }
 .header-adress {
